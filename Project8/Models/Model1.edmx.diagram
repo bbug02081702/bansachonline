@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7714b1e2be1e44e28eee137be12cb26a" Name="Diagram1">
+        <EntityTypeShape EntityType="BSDB2Model.Admin" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSDB2Model.ChiTietDDH" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSDB2Model.DonDatHang" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSDB2Model.KhachHang" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSDB2Model.LienHe" Width="1.5" PointX="4.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSDB2Model.NhaXuatBan" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSDB2Model.Sach" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSDB2Model.sysdiagram" Width="1.5" PointX="6.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSDB2Model.TacGia" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSDB2Model.TheLoai" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <AssociationConnector Association="BSDB2Model.FK__ChiTietDD__MaDDH__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="BSDB2Model.FK__ChiTietDD__MaSac__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="BSDB2Model.FK__DonDatHang__MaKH__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="BSDB2Model.FK__Sach__MaNXB__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="BSDB2Model.FK__Sach__MaLoai__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="BSDB2Model.FK__Sach__MaTG__267ABA7A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
